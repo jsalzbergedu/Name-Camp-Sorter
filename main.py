@@ -1,6 +1,8 @@
-from pathlib import path
+from pathlib import Path
 
-wrkngDrctry = Path()
+pByStudent = Path('By-Student')
+pByCamp = Path('By-Camp')
 
-if not wrkngDrctry('By-Student').exists() and not wrkngDrctry('By-Camp').exists():
-	wrkngDrctry.mkdir()
+if not pByStudent.exists() and not pByCamp.exists():
+	pByStudent.mkdir()
+	pByCamp.mkdir()
