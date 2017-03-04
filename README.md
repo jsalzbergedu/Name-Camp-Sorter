@@ -1,2 +1,2 @@
 # Name-Camp-Sorter
-Name Camp Sorter that I was told to make
+Sorter I was told to make. First real project, too!
