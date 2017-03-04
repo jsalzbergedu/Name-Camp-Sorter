@@ -6,3 +6,5 @@ pByCamp = Path('By-Camp')
 if not pByStudent.exists() and not pByCamp.exists():
 	pByStudent.mkdir()
 	pByCamp.mkdir()
+
+## some input file is parsed
