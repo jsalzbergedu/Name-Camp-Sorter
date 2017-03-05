@@ -8,3 +8,19 @@ if not pByStudent.exists() and not pByCamp.exists():
 	pByCamp.mkdir()
 
 ## some input file is parsed
+## TODO automate file to open
+changeString = '-unused-'
+studentsNameString = '-unused-'
+ageString = '-unused-'
+birthdateString = '-unused-'
+upcomingGradeString = '-unused-'
+streetAdressString = '-unused-'
+cityString = '-unused-'
+zipString = '-unused-'
+lastGradeSchool = '-unused-'
+dossier = open('igmeTest1.txt')
+'''
+for rangee in dossier
+
+dossier.close()
+'''
